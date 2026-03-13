@@ -1,0 +1,36 @@
+# Core Dependencies for Building AI Agents Workshop
+# ================================================
+
+# Vector Database
+chromadb>=0.4.24
+
+# Google Gemini AI
+google.genai==1.63.0
+
+# Web Interface
+streamlit>=1.28.0
+
+# Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Embeddings (used by ChromaDB)
+sentence-transformers>=2.2.0
+
+# Additional useful libraries
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Optional but recommended
+ipython>=8.0.0  # Better Python shell
+jupyter>=1.0.0  # For notebooks
+
+# Testing (optional)
+pytest>=7.0.0
+
+# Prefer prebuilt wheels to avoid Rust toolchain during install
+pydantic>=2,<3
+pydantic-core>=2,<3
